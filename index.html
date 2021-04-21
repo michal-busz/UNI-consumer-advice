@@ -17,7 +17,7 @@ html,body,h1,h2,h3,h4,h5,h6 { sans-serif;}
 </style>
 <body>
 
-<!-- Navbar -->
+<!-- Navigation bar -->
 <div class="w3-top">
   <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
@@ -29,7 +29,7 @@ html,body,h1,h2,h3,h4,h5,h6 { sans-serif;}
   </div>
 </div>
 
-<!-- Sidebar -->
+<!-- Side bar -->
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
     <i class="fa fa-remove"></i>
@@ -41,36 +41,37 @@ html,body,h1,h2,h3,h4,h5,h6 { sans-serif;}
   <a class="w3-bar-item w3-button w3-hover-black" href="#">Question 4</a>
 </nav>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<!-- Main content-->
 <div class="w3-main" style="margin-left:250px">
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Question 1</h1>
-      <p>...........................</p>
+      <p><input type="radio" id="internet" name="location" value="internet">
+<label for="internet">internet</label><br>
+<input type="radio" id="store" name="location" value="store">
+<label for="female">Store</label><br>
+<input type="radio" id="other" name="location" value="other">
+<label for="other">Other</label></p>
     </div>
   </div>
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h1 class="w3-text-teal">Question 2</h1>
+      <p>.............................................</p>
     </div>
   </div>
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h1 class="w3-text-teal">Question 3</h1>
+      <p>..............................</p>
     </div>
   </div>
 
-  <!-- Pagination -->
+  <!-- Pages numbers -->
   <div class="w3-center w3-padding-32">
     <div class="w3-bar">
       <a class="w3-button w3-black" href="#">1</a>
@@ -96,13 +97,11 @@ html,body,h1,h2,h3,h4,h5,h6 { sans-serif;}
 </div>
 
 <script>
-// Get the Sidebar
+// JavaScript
+//Get the Sidebar
 var mySidebar = document.getElementById("mySidebar");
-
-// Get the DIV with overlay effect
 var overlayBg = document.getElementById("myOverlay");
-
-// Toggle between showing and hiding the sidebar, and add overlay effect
+// Toggle between showing and hiding the sidebar
 function w3_open() {
   if (mySidebar.style.display === 'block') {
     mySidebar.style.display = 'none';
@@ -112,13 +111,11 @@ function w3_open() {
     overlayBg.style.display = "block";
   }
 }
-
-// Close the sidebar with the close button
+// Close the sidebar 
 function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
 }
 </script>
-
 </body>
 </html>
