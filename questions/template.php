@@ -14,6 +14,7 @@
         bottom: 0;
         height: inherit;
     }
+    h1 {text-align: center;}
 </style>
 <?php
 include_once("../header.php");
@@ -22,8 +23,8 @@ include_once("../sidebar.php");
 <body>
 <!-- Main content-->
 <div class="content-main" style="margin-left:250px">
-    <br><br><br><br><br><br>
-
+    <br><br>
+    <h1>Question 1 ...............................</h1>
     <table style="width:100%">
         <form action="question2.php" method="post"
               <tr>
