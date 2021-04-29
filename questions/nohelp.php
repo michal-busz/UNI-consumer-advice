@@ -1,9 +1,3 @@
-<?php
-if(! isset($_POST['choice1'])) {
-    header("Location: questions.php");
-    die(); // TODO recosnider if needed
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <title>Customer advice</title>
@@ -22,15 +16,13 @@ if(! isset($_POST['choice1'])) {
     }
     h1 {text-align: center;}
 </style>
-<?php
-include_once("../header.php");
-include_once("../sidebar.php");
-include_once("productType.php");
-include_once ("choices.php");
-?>
-
 <body>
 <!-- Main content-->
-
+<div class="content-main" style="margin-left:250px">
+    <br><br>
+    <h1>Sorry we're not able to help you in that case</h1>
+    <table style="width:100%">
+    </table>
+</div>
 </body>
 </html>

@@ -5,8 +5,8 @@
     </a>
     <h4 class="w3-bar-item"><b>Menu</b></h4>
     <a class="w3-bar-item w3-button w3-hover-black" href="/consumer-advice/questions/questions.php">Start</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#">Question 2</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#">Question 3</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="/consumer-advice/questions/question2.php">Question 2</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="/consumer-advice/questions/question3.php">Question 3</a>
     <a class="w3-bar-item w3-button w3-hover-black" href="#">Question 4</a>
 </nav>
 <script>

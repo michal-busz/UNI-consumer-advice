@@ -4,6 +4,6 @@
     </div>
 
     <div class="w3-container theme-l1">
-        <p>Powered by LSBU</p>
+        <p>Powered by LSBU (Team 8)</p>
     </div>
 </footer>

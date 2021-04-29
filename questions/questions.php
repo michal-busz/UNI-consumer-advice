@@ -33,10 +33,10 @@ include_once("../sidebar.php");
               </tr>
         <tr>
             <th>
-                <button type="submit" name="option" value="1">Yes</button>
+                <button type="submit" name="choice1" value="yes">Yes</button>
             </th>
             <th>
-                <button type="submit" name="option" value="2">No</button>
+                <button type="submit" name="choice1" value="no">No</button>
             </th>
     </form>
         </tr>
