@@ -2,7 +2,7 @@
     <br><br>
     <h1>When did you purchase the product?</h1>
     <table style="width:100%">
-        <form action="../advice.php" method="post"
+        <form action="advice.php" method="post"
 
         <tr>
             <th><img src="/consumer-advice/static/yes.jpg"   alt="0-6 months""></th> <!-- Option 1-->

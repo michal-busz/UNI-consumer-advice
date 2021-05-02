@@ -35,6 +35,7 @@ else if ($_POST["choice3"] == "Trader" AND $_POST["choice4"]=="yes" AND $_POST["
     include_once("advice/scenario7.php");
 else
     include_once("advice/scenario8.php");
+include_once ("detailsForm.php");
 include_once ("choices.php");
 ?>
 

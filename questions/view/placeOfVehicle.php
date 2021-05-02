@@ -2,7 +2,7 @@
     <br><br>
     <h1>Where did you buy the product?</h1>
     <table style="width:100%">
-        <form action="../question4.php" method="post"
+        <form action="question4.php" method="post"
         <tr>
             <th><img src="/consumer-advice/static/yes.jpg"   alt="Trader / Dealership""></th> <!-- Option 1-->
             <th><img src="/consumer-advice/static/yes.jpg"  alt="Private""></th> <!-- Option 2-->

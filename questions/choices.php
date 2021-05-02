@@ -1,7 +1,7 @@
 <?php
 // START FORM
 if(isset($_POST['choice5']))
-    echo "<br><form action=\"/consumer-advice/questions/advice.php\" method=\"post\">";
+    echo "<br><form action=\"advice.php\" method=\"post\">";
 else if(isset($_POST['choice4']))
     echo "<br><form action=\"/consumer-advice/questions/question5.php\" method=\"post\">";
 else if(isset($_POST['choice3']))
