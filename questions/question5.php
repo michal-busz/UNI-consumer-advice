@@ -19,13 +19,13 @@
 <?php
 include_once("../header.php");
 if($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice4"])
-    include_once("threeOptions.php");
+    include_once("view/threeOptions.php");
 else if ($_POST["choice3"] == "Private" AND $_POST["choice4"]=="yes")
-    include_once("twoMonths.php");
+    include_once("view/twoMonths.php");
 else if ($_POST["choice3"] == "Trader" AND $_POST["choice4"]=="yes")
-    include_once("sixMonths.php");
+    include_once("view/sixMonths.php");
 else if ($_POST["choice3"]=="Privates" AND $_POST["choice4"]=="yes")
-    include_once("singleOption.php");
+    include_once("view/singleOption.php");
 include_once ("choices.php");
 ?>
 

@@ -16,6 +16,7 @@
     }
     h1 {text-align: center;}
 </style>
+<br><br>
 <?php
 include_once("../header.php");
 if($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "less30")

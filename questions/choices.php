@@ -1,6 +1,17 @@
 <?php
 // START FORM
-    echo "<br><form action=\"/advice.php\">";
+if(isset($_POST['choice5']))
+    echo "<br><form action=\"/consumer-advice/questions/advice.php\" method=\"post\">";
+else if(isset($_POST['choice4']))
+    echo "<br><form action=\"/consumer-advice/questions/question5.php\" method=\"post\">";
+else if(isset($_POST['choice3']))
+    echo "<br><form action=\"/consumer-advice/questions/question4.php\" method=\"post\">";
+else if(isset($_POST['choice2']))
+    echo "<br><form action=\"/consumer-advice/questions/question3.php\" method=\"post\">";
+else if(isset($_POST['choice1']))
+    echo "<br><form action=\"/consumer-advice/questions/question2.php\" method=\"post\">";
+else
+    echo "<br><form action=\"/consumer-advice/questions/question1.php\" method=\"post\">";
 
     //QUESTION 1
 if(isset($_POST['choice1']))
@@ -33,7 +44,10 @@ foreach ($choices2 as $value){
 if(isset($_POST['choice3'])){
     echo "<br><label for=\"choice3\">Where did you buy the product?</label>
  <select name=\"choice3\" id=\"choice3\">";
-    $choices3 = array("Online", "Store", "Phone", "Private");
+    if($_POST['choice2'] == "Vehicle")
+        $choices3 = array("Trader", "Privates");
+    else
+        $choices3 = array("Online", "Store", "Phone", "Private");
     foreach ($choices3 as $value){
         if ($_POST['choice3']== $value)
             echo "<option value=\"".$value."\" selected>".$value."</option>";
@@ -44,7 +58,7 @@ if(isset($_POST['choice3'])){
 
 //QUESTION 4
 if(isset($_POST['choice4'])){
-    echo "<label for=\"choice4\">Do you ahve proof of purchase?</label>
+    echo "<br><label for=\"choice4\">Do you ahve proof of purchase?</label>
   <select name=\"choice4\" id=\"choice4\">";
 
 if(($_POST['choice4'] == "yes"))
@@ -61,7 +75,14 @@ echo "</select>";
 if(isset($_POST['choice5'])){
     echo "<br><label for=\"choice5\">When did you purchase the product?</label>
  <select name=\"choice5\" id=\"choice5\">";
-    $choices5 = array("less30", "more30", "morethan6", "less2", "more2", "less6", "more6", "anytime");
+    if($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice4"])
+        $choices5 = array("less30", "more30", "morethan6");
+    else if ($_POST["choice3"] == "Private" AND $_POST["choice4"]=="yes")
+        $choices5 = array( "less2", "more2");
+    else if ($_POST["choice3"] == "Trader" AND $_POST["choice4"]=="yes")
+        $choices5 = array("less6", "more6");
+    else if ($_POST["choice3"]=="Privates" AND $_POST["choice4"]=="yes")
+    $choices5 = array("anytime");
     foreach ($choices5 as $value){
         if ($_POST['choice5']== $value)
             echo "<option value=\"".$value."\" selected>".$value."</option>";

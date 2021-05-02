@@ -2,7 +2,7 @@
     <br><br>
     <h1>What is the type of the product?</h1>
     <table style="width:100%">
-        <form action="question3.php" method="post"
+        <form action="../question3.php" method="post"
         <tr>
             <th><img src="/consumer-advice/static/yes.jpg"   alt="Electrical""></th> <!-- Option 1-->
             <th><img src="/consumer-advice/static/yes.jpg"  alt="Clothing & fashion""></th> <!-- Option 2-->

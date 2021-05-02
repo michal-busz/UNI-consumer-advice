@@ -19,9 +19,9 @@
 <?php
 include_once("../header.php");
 if($_POST["choice2"]== "Vehicle")
-    include_once ("placeOfVehicle.php");
+    include_once("view/placeOfVehicle.php");
 else
-include_once("placeOfPurchase.php");
+include_once("view/placeOfPurchase.php");
 include_once ("choices.php");
 ?>
 

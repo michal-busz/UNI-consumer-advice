@@ -18,7 +18,7 @@
 </style>
 <?php
 include_once("../header.php");
-include_once ("proofOfPurchase.php");
+include_once("view/proofOfPurchase.php");
 include_once ("choices.php");
 ?>
 

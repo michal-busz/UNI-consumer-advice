@@ -25,7 +25,7 @@ if(! isset($_POST['choice1'])) {
 <?php
 include_once("../header.php");
 include_once("../sidebar.php");
-include_once("productType.php");
+include_once("view/productType.php");
 include_once ("choices.php");
 ?>
 

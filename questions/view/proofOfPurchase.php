@@ -2,7 +2,7 @@
     <br><br>
     <h1>Do you have proof of purchase?</h1>
     <table style="width:100%">
-        <form action="question5.php" method="post"
+        <form action="../question5.php" method="post"
         <tr>
             <th><img src="/consumer-advice/static/yes.jpg"   alt="Yes""></th> <!-- Option 1-->
             <th><img src="/consumer-advice/static/no.jpg"  alt="No""></th> <!-- Option 2-->
