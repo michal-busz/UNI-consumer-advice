@@ -91,7 +91,7 @@ if(isset($_POST['choice5'])){
     }
     echo "</select>";}
 // END FORM
- echo "<br><br>
+ echo "<br>
   <br><input type=\"submit\" value=\"Submit\">
 </form>";
 ?>

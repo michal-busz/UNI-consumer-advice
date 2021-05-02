@@ -7,13 +7,13 @@ class PDF extends FPDF
     function Header()
     {
         // Logo
-        $this->Image("upload/".$_FILES["image"]["name"],10,6,30);
+        $this->Image($_FILES["image"]["name"]);
         // Arial bold 15
         $this->SetFont('Arial','B',15);
         // Move to the right
         $this->Cell(80);
         // Title
-        $this->Cell(30,10,'Title',1,0,'C');
+        $this->Cell(30,10,'Refund Letter',1,0,'C');
         // Line break
         $this->Ln(20);
     }
@@ -39,7 +39,11 @@ $pdf->Cell(0,10,'Name: '.$_POST['name'],0,1);
 $pdf->Cell(0,10,'Email: '.$_POST['email'],0,1);
 $pdf->Cell(0,10,'Number: '.$_POST['number'],0,1);
 $pdf->Cell(0,10,'Company: '.$_POST['company'],0,1);
-$pdf->Cell(0,10,'Address: '.$_POST['address'],0,1);
+$pdf->Cell(0,10,'Address Line 1: '.$_POST['address1'],0,1);
+$pdf->Cell(0,10,'Address Line 2:  '.$_POST['address2'],0,1);
+$pdf->Cell(0,10,'Street Number: '.$_POST['stNo'],0,1);
+$pdf->Cell(0,10,'Post Code: '.$_POST['postCode'],0,1);
+$pdf->Cell(0,10,'Town: '.$_POST['town'],0,1);
 $pdf->Output();
-unlink("upload/".$_FILES["image"]["name"]);
+unlink($_FILES["image"]["name"]);
 ?>
