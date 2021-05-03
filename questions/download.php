@@ -47,7 +47,7 @@ $pdf->Cell(0,10,"Legal text ",0,1);
 $pdf->Cell(0,10,"",0,1);
 $pdf->Cell(0,10,"",0,1);
 $pdf->Cell(0,10,"My proof of purchase",0,1);
-$this->Image($_FILES["image"]["name"]);
+$pdf->Image($_FILES["image"]["name"]);
 $pdf->Cell(0,10,"Yours sincerely,  ".$_POST['name'],0,1);
 $pdf->Cell(0,10,'Email: '.$_POST['email'],0,1);
 $pdf->Cell(0,10,'Number: '.$_POST['number'],0,1);
