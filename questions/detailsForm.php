@@ -18,7 +18,15 @@
 </style>
 <?php
 include_once("../header.php");
-include_once("../sidebar.php");
+        echo '<nav class="sideBar w3-bar-block w3-collapse w3-large theme-l5 w3-animate-left" id="mySidebar">';
+        echo '<h4 class="w3-bar-item"><b>Menu</b></h4>';
+        echo '<a class="w3-bar-item w3-button w3-hover-black" href="/consumer-advice/questions/questions.php">Start✓</a>';
+        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Question 2✓</a>';
+        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Question 3✓</a>';
+        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Question 4✓</a>';
+        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Question 5✓</a>';
+        echo "</nav>";
+
 ?>
 <div class="content-main" style="margin-left:250px">
     <br><br><br>
