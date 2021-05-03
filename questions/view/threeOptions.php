@@ -1,4 +1,4 @@
-<div class="content-main" style="margin-left:250px">
+
     <br><br>
     <h1>When did you purchase the product?</h1>
     <table style="width:100%">
@@ -28,6 +28,6 @@
         </tr>
     </table>
     <?php
+    include_once ("choices.php");
     include_once("../footer.php");
     ?>
-</div>

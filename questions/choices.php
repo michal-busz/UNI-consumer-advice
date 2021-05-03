@@ -81,7 +81,7 @@ if(isset($_POST['choice5'])){
         $choices5 = array( "less2", "more2");
     else if ($_POST["choice3"] == "Trader" AND $_POST["choice4"]=="yes")
         $choices5 = array("less6", "more6");
-    else if ($_POST["choice3"]=="Privates" AND $_POST["choice4"]=="yes")
+    else
     $choices5 = array("anytime");
     foreach ($choices5 as $value){
         if ($_POST['choice5']== $value)

@@ -7,7 +7,7 @@ class PDF extends FPDF
     function Header()
     {
         // Logo
-        $this->Image($_FILES["image"]["name"]);
+
         // Arial bold 15
         $this->SetFont('Arial','B',15);
         // Move to the right
@@ -34,16 +34,23 @@ class PDF extends FPDF
 $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
-$pdf->SetFont('Times','',12);
-$pdf->Cell(0,10,'Name: '.$_POST['name'],0,1);
+$pdf->Cell(0,10,$_POST['company'],0,1);
+$pdf->Cell(0,10,$_POST['stNo'],0,1);
+$pdf->Cell(0,10,$_POST['address1'],0,1);
+$pdf->Cell(0,10,$_POST['address2'],0,1);
+$pdf->Cell(0,10,$_POST['town'],0,1);
+$pdf->Cell(0,10,$_POST['postCode'],0,1);
+$pdf->Cell(0,10,date("Y/m/d"),0,1);
+$pdf->Cell(0,10,$_POST['subject'],0,1);
+$pdf->Cell(0,10,"Dear Sir or Madam, ",0,1);
+$pdf->Cell(0,10,"Legal text ",0,1);
+$pdf->Cell(0,10,"",0,1);
+$pdf->Cell(0,10,"",0,1);
+$pdf->Cell(0,10,"My proof of purchase",0,1);
+$this->Image($_FILES["image"]["name"]);
+$pdf->Cell(0,10,"Yours sincerely,  ".$_POST['name'],0,1);
 $pdf->Cell(0,10,'Email: '.$_POST['email'],0,1);
 $pdf->Cell(0,10,'Number: '.$_POST['number'],0,1);
-$pdf->Cell(0,10,'Company: '.$_POST['company'],0,1);
-$pdf->Cell(0,10,'Address Line 1: '.$_POST['address1'],0,1);
-$pdf->Cell(0,10,'Address Line 2:  '.$_POST['address2'],0,1);
-$pdf->Cell(0,10,'Street Number: '.$_POST['stNo'],0,1);
-$pdf->Cell(0,10,'Post Code: '.$_POST['postCode'],0,1);
-$pdf->Cell(0,10,'Town: '.$_POST['town'],0,1);
 $pdf->Output();
 unlink($_FILES["image"]["name"]);
 ?>

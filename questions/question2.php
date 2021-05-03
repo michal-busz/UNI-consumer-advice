@@ -1,9 +1,4 @@
-<?php
-if(! isset($_POST['choice1'])) {
-    header("Location: questions.php");
-    die(); // TODO recosnider if needed
-}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <title>Customer advice</title>
@@ -22,14 +17,26 @@ if(! isset($_POST['choice1'])) {
     }
     h1 {text-align: center;}
 </style>
+
 <?php
+
 include_once("../header.php");
 include_once("../sidebar.php");
-include_once("view/productType.php");
-include_once ("choices.php");
+
 ?>
 
 <body>
+
+    <?php
+    if($_POST["choice1"]== "no")
+        include_once ("view/notfaulty.php");
+    else if ($_POST["choice4"]== "no")
+        include_once ("view/nohelp.php");
+    else if($_POST["choice1"]== "yes")
+    include_once("view/productType.php");
+    else
+        include_once ("view/notfaulty.php")
+    ?>
 <!-- Main content-->
 
 </body>

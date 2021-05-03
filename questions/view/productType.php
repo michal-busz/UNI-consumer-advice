@@ -31,6 +31,7 @@
         </tr>
     </table>
     <?php
+    include_once ("choices.php");
     include_once("../footer.php");
     ?>
 </div>

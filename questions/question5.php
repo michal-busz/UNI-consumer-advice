@@ -18,7 +18,18 @@
 </style>
 <?php
 include_once("../header.php");
-if($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice4"])
+include_once("../sidebar.php");
+
+?>
+
+<body>
+<div class="content-main" style="margin-left:250px">
+<?php
+if($_POST["choice1"]== "no")
+    include_once ("view/notfaulty.php");
+else if ($_POST["choice4"]== "no")
+    include_once ("view/nohelp.php");
+else if($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice4"])
     include_once("view/threeOptions.php");
 else if ($_POST["choice3"] == "Private" AND $_POST["choice4"]=="yes")
     include_once("view/twoMonths.php");
@@ -28,8 +39,7 @@ else if ($_POST["choice3"]=="Privates" AND $_POST["choice4"]=="yes")
     include_once("view/singleOption.php");
 include_once ("choices.php");
 ?>
-
-<body>
 <!-- Main content-->
+</div>
 </body>
 </html>

@@ -3,8 +3,8 @@
 <title>Customer advice</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../w3.css">
-<link rel="stylesheet" href="../w3-black.css">
+<link rel="stylesheet" href="../../w3.css">
+<link rel="stylesheet" href="../../w3-black.css">
 <style>
     html,body,h1,h2,h3,h4,h5,h6 { sans-serif;}
     .sideBar {

@@ -19,30 +19,37 @@
 <br><br>
 <?php
 include_once("../header.php");
-if($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "less30")
-    include_once("advice/scenario1.php");
-else if ($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "more30")
-    include_once ("advice/scenario2.php");
-else if ($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "morethan6")
-    include_once ("advice/scenario3.php");
-else if ($_POST["choice3"] == "Private" AND $_POST["choice4"]=="yes" AND $_POST["choice5"] == "less2")
-    include_once("advice/scenario4.php");
-else if ($_POST["choice3"] == "Private" AND $_POST["choice4"]=="yes" AND $_POST["choice5"] == "more2")
-    include_once("advice/scenario5.php");
-else if ($_POST["choice3"] == "Trader" AND $_POST["choice4"]=="yes" AND $_POST["choice5"] == "less6")
-    include_once("advice/scenario6.php");
-else if ($_POST["choice3"] == "Trader" AND $_POST["choice4"]=="yes" AND $_POST["choice5"] == "more6")
-    include_once("advice/scenario7.php");
-else
-    include_once("advice/scenario8.php");
-
+include_once("../sidebar.php");
 
 ?>
 
 <body>
+<div class="content-main" style="margin-left:250px">
+    <?php
+    if($_POST["choice1"]== "no")
+        include_once ("view/notfaulty.php");
+    else if ($_POST["choice4"]== "no")
+        include_once ("view/nohelp.php");
+    else if($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "less30")
+        include_once("advice/scenario1.php");
+    else if ($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "more30")
+        include_once ("advice/scenario2.php");
+    else if ($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "morethan6")
+        include_once ("advice/scenario3.php");
+    else if ($_POST["choice3"] == "Private" AND $_POST["choice4"]=="yes" AND $_POST["choice5"] == "less2")
+        include_once("advice/scenario4.php");
+    else if ($_POST["choice3"] == "Private" AND $_POST["choice4"]=="yes" AND $_POST["choice5"] == "more2")
+        include_once("advice/scenario5.php");
+    else if ($_POST["choice3"] == "Trader" AND $_POST["choice4"]=="yes" AND $_POST["choice5"] == "less6")
+        include_once("advice/scenario6.php");
+    else if ($_POST["choice3"] == "Trader" AND $_POST["choice4"]=="yes" AND $_POST["choice5"] == "more6")
+        include_once("advice/scenario7.php");
+    else
+        include_once("advice/scenario8.php");
+
+    include_once ("choices.php");
+    ?>
 Try our refund letter generator <a href="detailsForm.php">here!</a> <br><br><br>
+</div>
 </body>
-<?php
-include_once ("choices.php");
-?>
 </html>
