@@ -13,7 +13,7 @@ class PDF extends FPDF
         // Move to the right
         $this->Cell(80);
         // Title
-        $this->Cell(30,10,'Refund Letter',1,0,'C');
+        $this->Cell(30,10,'Refund Letter',0,0,'C');
         // Line break
         $this->Ln(20);
     }
@@ -34,23 +34,24 @@ class PDF extends FPDF
 $pdf = new PDF();
 $pdf->AliasNbPages();
 $pdf->AddPage();
-$pdf->Cell(0,10,$_POST['company'],0,1);
-$pdf->Cell(0,10,$_POST['stNo'],0,1);
-$pdf->Cell(0,10,$_POST['address1'],0,1);
-$pdf->Cell(0,10,$_POST['address2'],0,1);
-$pdf->Cell(0,10,$_POST['town'],0,1);
-$pdf->Cell(0,10,$_POST['postCode'],0,1);
-$pdf->Cell(0,10,date("Y/m/d"),0,1);
-$pdf->Cell(0,10,$_POST['subject'],0,1);
-$pdf->Cell(0,10,"Dear Sir or Madam, ",0,1);
-$pdf->Cell(0,10,"Legal text ",0,1);
-$pdf->Cell(0,10,"",0,1);
-$pdf->Cell(0,10,"",0,1);
-$pdf->Cell(0,10,"My proof of purchase",0,1);
+$pdf->SetFont('Arial','I',8);
+$pdf->Cell(0,5,$_POST['company'],0,1);
+$pdf->Cell(0,5,$_POST['stNo'],0,1);
+$pdf->Cell(0,5,$_POST['address1'],0,1);
+$pdf->Cell(0,5,$_POST['address2'],0,1);
+$pdf->Cell(0,5,$_POST['town'],0,1);
+$pdf->Cell(0,5,$_POST['postCode'],0,1);
+$pdf->Cell(0,5,date("Y/m/d"),0,1);
+$pdf->Cell(0,5,$_POST['subject'],0,1);
+$pdf->Cell(0,5,"Dear Sir or Madam, ",0,1);
+$pdf->Cell(0,5,"Legal text ",0,1);
+$pdf->Cell(0,5,"",0,1);
+$pdf->Cell(0,5,"",0,1);
+$pdf->Cell(0,5,"My proof of purchase",0,1);
 $pdf->Image($_FILES["image"]["name"]);
-$pdf->Cell(0,10,"Yours sincerely,  ".$_POST['name'],0,1);
-$pdf->Cell(0,10,'Email: '.$_POST['email'],0,1);
-$pdf->Cell(0,10,'Number: '.$_POST['number'],0,1);
+$pdf->Cell(0,5,"Yours sincerely,  ".$_POST['name'],0,1);
+$pdf->Cell(0,5,'Email: '.$_POST['email'],0,1);
+$pdf->Cell(0,5,'Number: '.$_POST['number'],0,1);
 $pdf->Output();
 unlink($_FILES["image"]["name"]);
 ?>
