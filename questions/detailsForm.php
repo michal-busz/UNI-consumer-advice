@@ -22,7 +22,7 @@ include_once("../sidebar.php");
 ?>
 <div class="content-main" style="margin-left:250px">
     <br><br><br>
-<form action="upload.php" method="post" enctype="multipart/form-data">
+<form action="upload.php" target="_blank" method="post" enctype="multipart/form-data">
     Your name: <input type="text" name="name"><br>
     Your email: <input type="text" name="email"><br>
     Your phone number: <input type="text" name="number"><br>
@@ -35,7 +35,8 @@ include_once("../sidebar.php");
     Post code: <input type="text" name="postCode"><br>
     Town: <input type="text" name="town"><br>
     <input type="file" name="image" id="image" size="50">
-    <input type="submit">
+    <input onclick='getElementById("thanks").innerHTML = "Thanks for using our generator!"' type="submit">
+    <p id="thanks"></p>
 </form>
 </div>
 
