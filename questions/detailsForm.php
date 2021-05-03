@@ -23,18 +23,18 @@ include_once("../sidebar.php");
 <div class="content-main" style="margin-left:250px">
     <br><br><br>
 <form action="upload.php" target="_blank" method="post" enctype="multipart/form-data">
-    Your name: <input type="text" name="name"><br>
-    Your email: <input type="text" name="email"><br>
-    Your phone number: <input type="text" name="number"><br>
-    Subject: <input type="text" name="subject"><br>
-    Company name: <input type="text" name="company"><br>
+    Your name: <input type="text" name="name" required><br>
+    Your email: <input type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Provide valid email "><br>
+    Your phone number: <input type="number" name="number" required ><br>
+    Subject: <input type="text" name="subject" required><br>
+    Company name: <input type="text" name="company" required><br>
     Company address:
-    Street number: <input type="text" name="stNo"><br>
-    Adress Line 1: <input type="text" name="address1"><br>
+    Street number: <input type="number" name="stNo" required><br>
+    Adress Line 1: <input type="text" name="address1" required><br>
     Adress Line 2: <input type="text" name="address2"><br>
-    Post code: <input type="text" name="postCode"><br>
-    Town: <input type="text" name="town"><br>
-    <input type="file" name="image" id="image" size="50">
+    Post code: <input type="text" name="postCode" required ><br>
+    Town: <input type="text" name="town"required><br>
+    <input type="file" name="image" id="image" size="50" required>
     <input onclick='getElementById("thanks").innerHTML = "Thanks for using our generator!"' type="submit">
     <p id="thanks"></p>
 </form>
