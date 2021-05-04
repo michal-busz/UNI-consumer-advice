@@ -8,10 +8,10 @@
         </tr>
         <tr>
             <th>
-                <button type="submit" name="choice3" value="Trader">Trader / Dealership</button>
+                <button type="submit" name="choice3" value="Trader" class="qbuttonstyle">Trader / Dealership</button>
             </th>
             <th>
-                <button type="submit" name="choice3" value="Privates">Private (e.g. eBay)</button>
+                <button type="submit" name="choice3" value="Privates" class="qbuttonstyle">Private (e.g. eBay)</button>
             </th>
             <input type="hidden" name="choice1" value="<?php echo $_POST["choice1"] ?>" />
             <input type="hidden" name="choice2" value="<?php echo $_POST["choice2"] ?>" />

@@ -11,19 +11,19 @@
         </tr>
         <tr>
             <th>
-                <button type="submit" name="choice2" value="Electrical">Electrical</button>
+                <button type="submit" name="choice2" value="Electrical" class="qbuttonstyle">Electrical</button>
             </th>
             <th>
-                <button type="submit" name="choice2" value="Clothing">Clothing & fashion</button>
+                <button type="submit" name="choice2" value="Clothing" class="qbuttonstyle">Clothing & fashion</button>
             </th>
             <th>
-                <button type="submit" name="choice2" value="Food">Food & drink</button>
+                <button type="submit" name="choice2" value="Food" class="qbuttonstyle">Food & drink</button>
             </th>
             <th>
-                <button type="submit" name="choice2" value="Digital">Digital & download</button>
+                <button type="submit" name="choice2" value="Digital" class="qbuttonstyle">Digital & download</button>
             </th>
             <th>
-                <button type="submit" name="choice2" value="Vehicle">Vehicle</button>
+                <button type="submit" name="choice2" value="Vehicle" class="qbuttonstyle">Vehicle</button>
             </th>
             <input type="hidden" name="choice1" value="<?php echo $_POST["choice1"] ?>" />
             </form>

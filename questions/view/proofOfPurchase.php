@@ -8,10 +8,10 @@
         </tr>
         <tr>
             <th>
-                <button type="submit" name="choice4" value="yes">Yes</button>
+                <button type="submit" name="choice4" value="yes" class="qbuttonstyle">Yes</button>
             </th>
             <th>
-                <button type="submit" name="choice4" value="no">No</button>
+                <button type="submit" name="choice4" value="no" class="qbuttonstyle">No</button>
             </th>
             <input type="hidden" name="choice1" value="<?php echo $_POST["choice1"] ?>" />
             <input type="hidden" name="choice2" value="<?php echo $_POST["choice2"] ?>" />

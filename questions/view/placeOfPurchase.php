@@ -10,16 +10,16 @@
         </tr>
         <tr>
             <th>
-                <button type="submit" name="choice3" value="Online">Online</button>
+                <button type="submit" name="choice3" value="Online" class="qbuttonstyle">Online</button>
             </th>
             <th>
-                <button type="submit" name="choice3" value="Store">In Store</button>
+                <button type="submit" name="choice3" value="Store" class="qbuttonstyle">In Store</button>
             </th>
             <th>
-                <button type="submit" name="choice3" value="Phone">Phone</button>
+                <button type="submit" name="choice3" value="Phone" class="qbuttonstyle">Phone</button>
             </th>
             <th>
-                <button type="submit" name="choice3" value="Private">Private (e.g. eBay)</button>
+                <button type="submit" name="choice3" value="Private" class="qbuttonstyle">Private (e.g. eBay)</button>
             </th>
             <input type="hidden" name="choice1" value="<?php echo $_POST["choice1"] ?>" />
             <input type="hidden" name="choice2" value="<?php echo $_POST["choice2"] ?>" />

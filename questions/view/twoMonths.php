@@ -10,10 +10,10 @@
         </tr>
         <tr>
             <th>
-                <button type="submit" name="choice5" value="less2">0-2 months</button>
+                <button type="submit" name="choice5" value="less2" class="qbuttonstyle">0-2 months</button>
             </th>
             <th>
-                <button type="submit" name="choice5" value="more2">2 months +</button>
+                <button type="submit" name="choice5" value="more2" class="qbuttonstyle">2 months +</button>
             </th>
 
             <input type="hidden" name="choice1" value="<?php echo $_POST["choice1"] ?>" />

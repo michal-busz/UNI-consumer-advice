@@ -11,13 +11,13 @@
         </tr>
         <tr>
             <th>
-                <button type="submit" name="choice5" value="less30">0-30 days ago</button>
+                <button type="submit" name="choice5" value="less30" class="qbuttonstyle">0-30 days ago</button>
             </th>
             <th>
-                <button type="submit" name="choice5" value="more30">30 days - 6 months</button>
+                <button type="submit" name="choice5" value="more30" class="qbuttonstyle">30 days - 6 months</button>
             </th>
             <th>
-                <button type="submit" name="choice5" value="morethan6">6 months +</button>
+                <button type="submit" name="choice5" value="morethan6" class="qbuttonstyle">6 months +</button>
             </th>
 
             <input type="hidden" name="choice1" value="<?php echo $_POST["choice1"] ?>" />

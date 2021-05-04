@@ -9,7 +9,7 @@
         </tr>
         <tr>
             <th>
-                <button type="submit" name="choice5" value="anytime">Anytime</button>
+                <button type="submit" name="choice5" value="anytime" class="qbuttonstyle">Anytime</button>
             </th>
 
             <input type="hidden" name="choice1" value="<?php echo $_POST["choice1"] ?>" />
