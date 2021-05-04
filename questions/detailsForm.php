@@ -30,19 +30,30 @@ include_once("../header.php");
 ?>
 <div class="content-main" style="margin-left:250px">
     <br><br>
-    <h1>Template form</h1>
+    <h1>Template form: Complete the form to generate your personalised letter</h1>
 <form action="upload.php" target="_blank" method="post" enctype="multipart/form-data">
-    Your name: <input type="text" name="name" required><br>
-    Your email: <input type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Provide valid email "><br>
-    Your phone number: <input type="number" name="number" required ><br>
-    Subject: <input type="text" name="subject" required><br>
-    Company name: <input type="text" name="company" required><br>
-    Company address:
-    Street number: <input type="number" name="stNo" required><br>
-    Adress Line 1: <input type="text" name="address1" required><br>
-    Adress Line 2: <input type="text" name="address2"><br>
-    Town or city: <input type="text" name="town"required><br>
-    Postcode: <input type="text" name="postCode" required ><br>
+    <label class="requiredField" for="name">Your name:</label><br>
+    <input type="text" name="name" required><br>
+    <label class="requiredField" for="email">Your email:</label><br>
+    <input type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Provide valid email "><br>
+    <label class="requiredField" for="number">Your phone number:</label><br>
+    <input type="number" name="number" required ><br>
+    <label class="requiredField" for="subject">Subject of complaint:</label><br>
+    <input type="text" name="subject" required><br>
+    <label class="requiredField" for="company">Company name:</label><br>
+    <input type="text" name="company" required><br>
+    <label>Company address</label><br>
+    <label class="requiredField" for="stNo">Street number:</label><br>
+    <input type="number" name="stNo" required><br>
+    <label class="requiredField" for="address1">Address Line 1:</label><br>
+    <input type="text" name="address1" required><br>
+    <label for="address2">Address Line 2:</label><br>
+    <input type="text" name="address2"><br>
+    <label class="requiredField" for="town">Town or city:</label><br>
+    <input type="text" name="town" required><br>
+    <label class="requiredField" for="postCode">Postcode:</label><br>
+    <input type="text" name="postCode" required ><br>
+    <label class="requiredField" for="image">Upload proof of purchase:</label><br>
     <input type="file" name="image" id="image" size="50" required><br><br>
     <input onclick='getElementById("thanks").innerHTML = "Thanks for using our generator!"' type="submit" value="Generate letter">
     <p id="thanks"></p>
