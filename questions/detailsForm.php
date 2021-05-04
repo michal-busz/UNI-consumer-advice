@@ -29,7 +29,8 @@ include_once("../header.php");
 
 ?>
 <div class="content-main" style="margin-left:250px">
-    <br><br><br>
+    <br><br>
+    <h1>Template form</h1>
 <form action="upload.php" target="_blank" method="post" enctype="multipart/form-data">
     Your name: <input type="text" name="name" required><br>
     Your email: <input type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Provide valid email "><br>
@@ -40,10 +41,10 @@ include_once("../header.php");
     Street number: <input type="number" name="stNo" required><br>
     Adress Line 1: <input type="text" name="address1" required><br>
     Adress Line 2: <input type="text" name="address2"><br>
-    Post code: <input type="text" name="postCode" required ><br>
-    Town: <input type="text" name="town"required><br>
-    <input type="file" name="image" id="image" size="50" required>
-    <input onclick='getElementById("thanks").innerHTML = "Thanks for using our generator!"' type="submit">
+    Town or city: <input type="text" name="town"required><br>
+    Postcode: <input type="text" name="postCode" required ><br>
+    <input type="file" name="image" id="image" size="50" required><br><br>
+    <input onclick='getElementById("thanks").innerHTML = "Thanks for using our generator!"' type="submit" value="Generate letter">
     <p id="thanks"></p>
 </form>
 </div>
