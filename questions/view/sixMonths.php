@@ -1,6 +1,6 @@
 
     <br><br>
-    <h1>When did you purchase the product?</h1>
+    <h1>Question 5: When did you purchase the faulty product?</h1>
     <table style="width:100%">
         <form action="advice.php" method="post"
 

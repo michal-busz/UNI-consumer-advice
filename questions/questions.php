@@ -24,7 +24,7 @@ include_once("../sidebar.php");
 <!-- Main content-->
 <div class="content-main" style="margin-left:250px">
     <br><br>
-    <h1>Is you product faulty?</h1>
+    <h1>Question 1: Is you product faulty?</h1>
     <table style="width:100%">
         <form action="question2.php" method="post"
               <tr>

@@ -1,6 +1,5 @@
 <div class="content-main" style="margin-left:250px">
-    <br><br>
-    <h1>Do you have proof of purchase?</h1>
+    <h1>Question 4: Do you have proof of purchase?</h1>
     <table style="width:100%">
         <form action="question5.php" method="post"
         <tr>

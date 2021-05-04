@@ -1,6 +1,5 @@
 <div class="content-main" style="margin-left:250px">
-    <br><br>
-    <h1>Where did you buy the product?</h1>
+    <h1>Question 3: Where did you buy the faulty vehicle?</h1>
     <table style="width:100%">
         <form action="question4.php" method="post"
         <tr>
@@ -12,7 +11,7 @@
                 <button type="submit" name="choice3" value="Trader">Trader / Dealership</button>
             </th>
             <th>
-                <button type="submit" name="choice3" value="Privates">Private</button>
+                <button type="submit" name="choice3" value="Privates">Private (e.g. eBay)</button>
             </th>
             <input type="hidden" name="choice1" value="<?php echo $_POST["choice1"] ?>" />
             <input type="hidden" name="choice2" value="<?php echo $_POST["choice2"] ?>" />
