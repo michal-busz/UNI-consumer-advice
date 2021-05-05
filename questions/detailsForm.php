@@ -26,6 +26,10 @@ include_once("../header.php");
         echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Question 4✓</a>';
         echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Question 5✓</a>';
         echo "</nav>";
+        if($_POST["letter"] == "redund"){
+
+        }
+
 
 ?>
 <div class="content-main" style="margin-left:250px">
@@ -38,8 +42,8 @@ include_once("../header.php");
     <input type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Provide valid email "><br>
     <label class="requiredField" for="number">Your phone number:</label><br>
     <input type="number" name="number" required ><br>
-    <label class="requiredField" for="subject">Subject of complaint:</label><br>
-    <input type="text" name="subject" required><br>
+    <label class="requiredField" for="productName">Product of complaint:</label><br>
+    <input type="text" name="productName" required><br>
     <label class="requiredField" for="company">Company name:</label><br>
     <input type="text" name="company" required><br>
     <label>Company address</label><br>
@@ -53,6 +57,19 @@ include_once("../header.php");
     <input type="text" name="town" required><br>
     <label class="requiredField" for="postCode">Postcode:</label><br>
     <input type="text" name="postCode" required ><br>
+    <label for="purchaseDate">Date of purchase:</label>
+    <input type="date" id="purchaseDate" name="purchaseDate"
+           value="31/01/2021"
+           min="01/01/2014" max="01/01/2044">
+    <label for="deliveryDate">Delivery date:</label>
+    <input type="date" id="deliveryDate" name="deliveryDate"
+           value="31/01/2021"
+           min="01/01/2014" max="01/01/2044"><br>
+    <label class="requiredField" for="price">Price:</label><br>
+    <input type="text" name="price" required><br>
+    <textarea id="problems" name="problems" rows="4" cols="50">
+  Problems with your product
+  </textarea><br>
     <label class="requiredField" for="image">Upload proof of purchase:</label><br>
     <input type="file" name="image" id="image" size="50" required><br><br>
     <input onclick='getElementById("thanks").innerHTML = "Thanks for using our generator!"' type="submit" value="Generate letter">
