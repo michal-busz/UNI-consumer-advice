@@ -24,6 +24,10 @@
     <table style="width:100%">
         Unfortunately, without a proof of purchase, we are unable to advice you any further. <br>Please contact your seller, they may be able to offer you some advice or alternative, in line with ther policies.
     </table>
+    <?php
+    include_once ("choices.php");
+    include_once("../footer.php");
+    ?>
 </div>
 </body>
 </html>

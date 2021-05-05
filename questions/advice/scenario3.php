@@ -1,3 +1,4 @@
+<div class="content-main" style="margin-left:250px">
 <h1> Scenario 3</h1>
 You have gone past your <b>first 6 months.</b><br>
 

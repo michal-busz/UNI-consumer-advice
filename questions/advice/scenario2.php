@@ -1,3 +1,4 @@
+<div class="content-main" style="margin-left:250px">
 <h1> Scenario 2</h1>
 If after 30 days, you are entitled to repair or replacement/ exchange if clothing.<br>
 

@@ -23,6 +23,10 @@
     <h1>Sorry we're not able to help you in that case</h1>
     <table style="width:100%">
     </table>
+    <?php
+    include_once ("choices.php");
+    include_once("../footer.php");
+    ?>
 </div>
 </body>
 </html>

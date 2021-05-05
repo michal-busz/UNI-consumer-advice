@@ -1,3 +1,4 @@
+<div class="content-main" style="margin-left:250px">
 <h1> Scenario 5</h1>
 After the <b>first 2 months.</b>
 
