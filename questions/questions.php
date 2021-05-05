@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Customer advice</title>
+<title>Consumer Advice Portal</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../w3.css">
@@ -24,43 +24,47 @@ include_once("../sidebar.php");
 <!-- Main content-->
 <div class="content-main" style="margin-left:250px">
     <br><br>
-    <h1>Question 1: Is you product faulty*?</h1>
+    <h1>Question 1: Is you product faulty*?</h1><br>
     <table style="width:100%">
-        <form action="question2.php" method="post"
-              <tr>
-                  <th><img src="/consumer-advice/static/yes.jpg"  alt="Product is faulty""></th> <!-- Option 1-->
-                  <th><img src="/consumer-advice/static/no.jpg"  alt="Product is not faulty""></th>  <!-- Option 2-->
-              </tr>
-        <tr>
-            <th>
-                <button type="submit" name="choice1" value="yes" class="qbuttonstyle">Yes</button>
-            </th>
-            <th>
-                <button type="submit" name="choice1" value="no" class="qbuttonstyle">No</button>
-            </th>
-    </form>
-        </tr>
+        <form action="question2.php" method="post">
+            <tr>
+                <td style="vertical-align:top;">
+                    <h2><b>Definition of Faulty Product</b></h2>
+                    <p>If your item has arrived faulty or you have something wrong with your item, you may be entitled to receive a refund, a repair, or a replacement.<br><br>
+                    Your legal rights:<br>
+                    <ul>
+                        <li>broken or damaged ('not of satisfactory quality')</li>
+                        <li>unusable (‘not fit for purpose’)</li>
+                        <li>not what was advertised or doesn’t match the seller’s description</li>
+                    </ul><br>
+                    No legal rights:<br>
+                    <ul>    
+                        <li>it was damaged by wear and tear, an accident or misuse</li>
+                        <li>you knew about the fault before you bought the item</li>
+                        <li>you’ve just changed your mind</li>
+                    </ul></p>
+                </td>
+                <td>         
+                    <iframe width="852" height="480"
+                    src="https://www.youtube.com/embed/zHRVpyl2UWw" title="YouTube video player">
+                    </iframe> 
+                </td>
+            </tr>
+                <tr>
+                    <th><img src="/consumer-advice/static/yes.jpg"  alt="Product is faulty""></th> <!-- Option 1-->
+                    <th><img src="/consumer-advice/static/no.jpg"  alt="Product is not faulty""></th>  <!-- Option 2-->
+                </tr>
+            <tr>
+                <th>
+                    <button type="submit" name="choice1" value="yes" class="qbuttonstyle">Yes</button>
+                </th>
+                <th>
+                    <button type="submit" name="choice1" value="no" class="qbuttonstyle">No</button>
+                </th>
+            </tr>
+        </form>
+    </table><br>
 
-    </table>
-    <b>Definition of Faulty Good</b><br>
-
-    If your item has arrived faulty or you have something wrong with your item, you may be entitled to receive a refund, a repair, or a replacement.<br>
-
-    Your legal rights:<br>
-
-    •broken or damaged ('not of satisfactory quality')<br>
-
-    •unusable (‘not fit for purpose’)<br>
-
-    •not what was advertised or doesn’t match the seller’s description<br>
-
-    No legal rights:<br>
-
-    •it was damaged by wear and tear, an accident or misuse<br>
-
-    •you knew about the fault before you bought the item<br>
-
-    •you’ve just changed your mind
     <?php
     include_once("../footer.php");
     ?>

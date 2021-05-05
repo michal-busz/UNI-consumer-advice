@@ -3,7 +3,7 @@
     <table style="width:100%">
         <form action="question3.php" method="post"
         <tr>
-            <th><img src="/consumer-advice/static/yes.jpg"   alt="Electrical""></th> <!-- Option 1-->
+            <th><img src="/consumer-advice/static/yes.jpg"  alt="Electrical""></th> <!-- Option 1-->
             <th><img src="/consumer-advice/static/yes.jpg"  alt="Clothing & fashion""></th> <!-- Option 2-->
             <th><img src="/consumer-advice/static/yes.jpg"  alt="Food & drink""></th> <!-- Option 3-->
             <th><img src="/consumer-advice/static/yes.jpg"  alt="Digital & download""></th> <!-- Option 4-->
