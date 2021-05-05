@@ -67,9 +67,8 @@ include_once("../header.php");
            min="01/01/2014" max="01/01/2044"><br>
     <label class="requiredField" for="price">Price:</label><br>
     <input type="text" name="price" required><br>
-    <textarea id="problems" name="problems" rows="4" cols="50">
-  Problems with your product
-  </textarea><br>
+    <label for="problems">Problems with your faulty product:</label><br>
+    <textarea id="problems" name="problems" rows="3" cols="50" placeholder="Type here a brief description of your problems with your faulty product."></textarea><br>
     <label class="requiredField" for="image">Upload proof of purchase:</label><br>
     <input type="file" name="image" id="image" size="50" required><br><br>
     <input onclick='getElementById("thanks").innerHTML = "Thanks for using our generator!"' type="submit" value="Generate letter">
