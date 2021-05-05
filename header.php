@@ -37,14 +37,14 @@ body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
-/* Slideshow container */
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Caption text */
+
 .text {
   color: red;
   font-size: 15px;
@@ -58,7 +58,7 @@ img {vertical-align: middle;}
 
 }
 
-/* The dots/bullets/indicators */
+
 .dot {
   height: 15px;
   width: 15px;
@@ -73,7 +73,7 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
-/* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
