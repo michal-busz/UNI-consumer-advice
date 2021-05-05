@@ -23,7 +23,7 @@ include_once("../sidebar.php");
 ?>
 
 <body>
-<div class="content-main" style="margin-left:250px">
+
 <?php
 if($_POST["choice1"]== "no")
     include_once ("view/notfaulty.php");
@@ -40,6 +40,6 @@ else if ($_POST["choice3"]=="Privates" AND $_POST["choice4"]=="yes")
 include_once ("choices.php");
 ?>
 <!-- Main content-->
-</div>
+
 </body>
 </html>

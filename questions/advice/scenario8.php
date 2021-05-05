@@ -1,3 +1,4 @@
+<div class="content-main" style="margin-left:250px">
 <h1> Scenario 8</h1>
 Your rights depend on how the car was described to you.<br>
 
@@ -12,3 +13,4 @@ If it’s not ‘as described’, you’ll be entitled to one of the following:<
 •the cost of making changes to the car so it matches the description - for example if the seller said it had a refurbished engine<br>
 
 •a refund <br>
+

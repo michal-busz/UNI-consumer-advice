@@ -24,7 +24,6 @@ include_once("../sidebar.php");
 ?>
 
 <body>
-<div class="content-main" style="margin-left:250px">
     <?php
     if($_POST["choice1"]== "no")
         include_once ("view/notfaulty.php");
@@ -47,7 +46,9 @@ include_once("../sidebar.php");
     else
         include_once("advice/scenario8.php");
 
+
     include_once ("choices.php");
+    include_once("../footer.php");
     ?>
     <form action="detailsForm.php" method="post">
     <input type="hidden" name="choice1" value="<?php echo $_POST["choice1"] ?>" />
@@ -56,6 +57,7 @@ include_once("../sidebar.php");
     <input type="hidden" name="choice4" value="<?php echo $_POST["choice4"] ?>" />
     <input type="hidden" name="choice5" value="<?php echo $_POST["choice5"] ?>" />
         <br><input type="submit" value="Try our refund letter generator">
+    </form>
 </div>
 </body>
 </html>

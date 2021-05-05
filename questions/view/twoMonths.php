@@ -1,4 +1,4 @@
-
+<div class="content-main" style="margin-left:250px">
     <br><br>
     <h1>Question 5: When did you purchase the faulty product?</h1>
     <table style="width:100%">
@@ -27,3 +27,4 @@
     include_once ("choices.php");
     include_once("../footer.php");
     ?>
+</div>

@@ -1,3 +1,4 @@
+<div class="content-main" style="margin-left:250px">
 <h1> Scenario 7</h1>
 You must prove that the car was faulty when you first brought it and the trader must pay for the repair.<br>
 
