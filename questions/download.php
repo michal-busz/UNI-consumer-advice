@@ -29,6 +29,7 @@ class PDF extends FPDF
         $this->Cell(0,10,'Page '.$this->PageNo().'/{nb}',0,0,'C');
     }
 }
+//date_format($_POST['purchaseDate'],"d/m/Y ");;
 
 // Instanciation of inherited class
 $pdf = new PDF();
@@ -47,11 +48,13 @@ $pdf->Cell(0,5,"Dear Sir or Madam, ",0,1);
 $pdf->Cell(0,5,"Legal text ",0,1);
 $pdf->Cell(0,5,"",0,1);
 $pdf->Cell(0,5,"",0,1);
-$pdf->Cell(0,5,"My proof of purchase",0,1);
-$pdf->Image($_FILES["image"]["name"]);
 $pdf->Cell(0,5,"Yours sincerely,  ".$_POST['name'],0,1);
 $pdf->Cell(0,5,'Email: '.$_POST['email'],0,1);
 $pdf->Cell(0,5,'Number: '.$_POST['number'],0,1);
+$pdf->Cell(0,5,"",0,1);
+$pdf->Cell(0,5,"My proof of purchase attached below",0,1);
+$pdf->Image($_FILES["image"]["name"],0,140,240,150);
+
 $pdf->Output();
 unlink($_FILES["image"]["name"]);
 ?>
