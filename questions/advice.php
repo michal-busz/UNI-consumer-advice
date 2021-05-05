@@ -30,11 +30,11 @@ include_once("../sidebar.php");
         include_once ("view/notfaulty.php");
     else if ($_POST["choice4"]== "no")
         include_once ("view/nohelp.php");
-    else if($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "less30")
+    else if(($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone") AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "less30")
         include_once("advice/scenario1.php");
-    else if ($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "more30")
+    else if (($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone") AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "more30")
         include_once ("advice/scenario2.php");
-    else if ($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone" AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "morethan6")
+    else if (($_POST["choice3"] == "Online" OR $_POST["choice3"] == "Store" OR $_POST["choice3"] == "Phone") AND $_POST["choice4"] == "yes" AND $_POST["choice5"] == "morethan6")
         include_once ("advice/scenario3.php");
     else if ($_POST["choice3"] == "Private" AND $_POST["choice4"]=="yes" AND $_POST["choice5"] == "less2")
         include_once("advice/scenario4.php");
@@ -49,7 +49,13 @@ include_once("../sidebar.php");
 
     include_once ("choices.php");
     ?>
-Try our refund letter generator <a href="detailsForm.php">here!</a> <br><br><br>
+    <form action="detailsForm.php" method="post">
+    <input type="hidden" name="choice1" value="<?php echo $_POST["choice1"] ?>" />
+    <input type="hidden" name="choice2" value="<?php echo $_POST["choice2"] ?>" />
+    <input type="hidden" name="choice3" value="<?php echo $_POST["choice3"] ?>" />
+    <input type="hidden" name="choice4" value="<?php echo $_POST["choice4"] ?>" />
+    <input type="hidden" name="choice5" value="<?php echo $_POST["choice5"] ?>" />
+        <br><input type="submit" value="Try our refund letter generator">
 </div>
 </body>
 </html>

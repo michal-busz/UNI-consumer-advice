@@ -22,6 +22,7 @@
     <br><br>
     <h1>Sorry we're not able to help you in that case</h1>
     <table style="width:100%">
+        Unfortunately, without a proof of purchase, we are unable to advice you any further. <br>Please contact your seller, they may be able to offer you some advice or alternative, in line with ther policies.
     </table>
 </div>
 </body>

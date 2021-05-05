@@ -24,7 +24,7 @@ include_once("../sidebar.php");
 <!-- Main content-->
 <div class="content-main" style="margin-left:250px">
     <br><br>
-    <h1>Question 1: Is you product faulty?</h1>
+    <h1>Question 1: Is you product faulty*?</h1>
     <table style="width:100%">
         <form action="question2.php" method="post"
               <tr>
@@ -40,7 +40,27 @@ include_once("../sidebar.php");
             </th>
     </form>
         </tr>
+
     </table>
+    <b>Definition of Faulty Good</b><br>
+
+    If your item has arrived faulty or you have something wrong with your item, you may be entitled to receive a refund, a repair, or a replacement.<br>
+
+    Your legal rights:<br>
+
+    •broken or damaged ('not of satisfactory quality')<br>
+
+    •unusable (‘not fit for purpose’)<br>
+
+    •not what was advertised or doesn’t match the seller’s description<br>
+
+    No legal rights:<br>
+
+    •it was damaged by wear and tear, an accident or misuse<br>
+
+    •you knew about the fault before you bought the item<br>
+
+    •you’ve just changed your mind
     <?php
     include_once("../footer.php");
     ?>
