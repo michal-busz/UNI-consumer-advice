@@ -60,7 +60,7 @@ $pdf->Cell(0,5,'Email: '.$_POST['email'],0,1);
 $pdf->Cell(0,5,'Number: '.$_POST['number'],0,1);
 $pdf->Cell(0,5,"",0,1);
 $pdf->Cell(0,5,"My proof of purchase attached below",0,1);
-$pdf->Image($_FILES["image"]["name"],0,140,240,150);
+$pdf->Image($_FILES["image"]["name"],0,140,240,130);
 
 $pdf->Output();
 unlink($_FILES["image"]["name"]);

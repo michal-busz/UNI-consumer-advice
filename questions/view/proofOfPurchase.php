@@ -3,7 +3,7 @@
     <table style="width:100%">
         <form action="question5.php" method="post">
         <tr>
-            <th style="width:50%;"><img src="/consumer-advice/static/q4_yesproof.jpg" style="display:block;" width="90%" height="90%" alt="Yes"></th> <!-- Option 1-->
+            <th style="width:50%;"><img src="/consumer-advice/static/q4_yesproof.jpg" style="display:block;" width="90%" height="450px" alt="Yes"></th> <!-- Option 1-->
             <th style="width:50%;"><img src="/consumer-advice/static/q4_noproof.jpg"  style="display:block;" width="90%" height="90%" alt="No"></th> <!-- Option 2-->
         </tr>
         <tr>

@@ -3,9 +3,9 @@
     <table style="width:100%">
         <form action="question3.php" method="post">
         <tr>
-            <th style="width:20%;"><img src="/consumer-advice/static/q2_electrical.jpg" style="display:block;" width="100%" height="100%" alt="Electrical"></th> <!-- Option 1-->
-            <th style="width:20%;"><img src="/consumer-advice/static/q2_clothingfashion.jpg" style="display:block;" width="100%" height="100%" alt="Clothing & fashion"></th> <!-- Option 2-->
-            <th style="width:20%;"><img src="/consumer-advice/static/q2_fooddrink.jpg" style="display:block;" width="100%" height="100%" alt="Food & drink"></th> <!-- Option 3-->
+            <th style="width:20%;"><img src="/consumer-advice/static/q2_electrical.jpeg" style="display:block;" width="100%" height="100%" alt="Electrical"></th> <!-- Option 1-->
+            <th style="width:20%;"><img src="/consumer-advice/static/q2_clothingfashion.jpg" style="display:block;" width="100%" height="250px" alt="Clothing & fashion"></th> <!-- Option 2-->
+            <th style="width:20%;"><img src="/consumer-advice/static/q2_fooddrink.jpg" style="display:block;" width="100%" height="250px" alt="Food & drink"></th> <!-- Option 3-->
             <th style="width:20%;"><img src="/consumer-advice/static/q2_digitaldownload.jpg" style="display:block;" width="100%" height="100%" alt="Digital & download"></th> <!-- Option 4-->
             <th style="width:20%;"><img src="/consumer-advice/static/q2_vehicle.jpg" style="display:block;" width="100%" height="100%" alt="Vehicle"></th> <!-- Option 5-->
         </tr>

@@ -51,8 +51,8 @@ include_once("../sidebar.php");
                 </td>
             </tr>
                 <tr>
-                    <th style="width:50%;"><img src="/consumer-advice/static/q1_yes.jpg" style="display:block;" width="100%" height="100%" alt="Product is faulty"></th> <!-- Option 1-->
-                    <th style="width:50%;"><img src="/consumer-advice/static/q1_no.jpg"  style="display:block;" width="100%" height="100%" alt="Product is not faulty"></th>  <!-- Option 2-->
+                    <th style="width:50%;"><img src="/consumer-advice/static/q1_yes.jpg" style="display:block;" width="100%" height="300px" alt="Product is faulty"></th> <!-- Option 1-->
+                    <th style="width:50%;"><img src="/consumer-advice/static/q1_no.jpg"  style="display:block;" width="100%" height="300px" alt="Product is not faulty"></th>  <!-- Option 2-->
                 </tr>
             <tr>
                 <th>
