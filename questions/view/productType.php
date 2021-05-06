@@ -1,13 +1,13 @@
 <div class="content-main" style="margin-left:250px">
     <h1>Question 2: What is the type of product that is faulty?</h1>
     <table style="width:100%">
-        <form action="question3.php" method="post"
+        <form action="question3.php" method="post">
         <tr>
-            <th><img src="/consumer-advice/static/yes.jpg"  alt="Electrical""></th> <!-- Option 1-->
-            <th><img src="/consumer-advice/static/yes.jpg"  alt="Clothing & fashion""></th> <!-- Option 2-->
-            <th><img src="/consumer-advice/static/yes.jpg"  alt="Food & drink""></th> <!-- Option 3-->
-            <th><img src="/consumer-advice/static/yes.jpg"  alt="Digital & download""></th> <!-- Option 4-->
-            <th><img src="/consumer-advice/static/yes.jpg"  alt="Vehicle""></th> <!-- Option 5-->
+            <th style="width:20%;"><img src="/consumer-advice/static/q2_electrical.jpg" style="display:block;" width="100%" height="100%" alt="Electrical"></th> <!-- Option 1-->
+            <th style="width:20%;"><img src="/consumer-advice/static/q2_clothingfashion.jpg" style="display:block;" width="100%" height="100%" alt="Clothing & fashion"></th> <!-- Option 2-->
+            <th style="width:20%;"><img src="/consumer-advice/static/q2_fooddrink.jpg" style="display:block;" width="100%" height="100%" alt="Food & drink"></th> <!-- Option 3-->
+            <th style="width:20%;"><img src="/consumer-advice/static/q2_digitaldownload.jpg" style="display:block;" width="100%" height="100%" alt="Digital & download"></th> <!-- Option 4-->
+            <th style="width:20%;"><img src="/consumer-advice/static/q2_vehicle.jpg" style="display:block;" width="100%" height="100%" alt="Vehicle"></th> <!-- Option 5-->
         </tr>
         <tr>
             <th>

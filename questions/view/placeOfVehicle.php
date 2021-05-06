@@ -3,8 +3,8 @@
     <table style="width:100%">
         <form action="question4.php" method="post"
         <tr>
-            <th><img src="/consumer-advice/static/yes.jpg"   alt="Trader / Dealership""></th> <!-- Option 1-->
-            <th><img src="/consumer-advice/static/yes.jpg"  alt="Private""></th> <!-- Option 2-->
+            <th style="width:50%;"><img src="/consumer-advice/static/q3_tradedealership.jpg" style="display:block;" width="100%" height="100%" alt="Trader / Dealership"></th> <!-- Option 1-->
+            <th style="width:50%;"><img src="/consumer-advice/static/q3_private.jpg" style="display:block;" width="100%" height="100%" alt="Private"></th> <!-- Option 2-->
         </tr>
         <tr>
             <th>

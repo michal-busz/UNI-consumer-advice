@@ -22,6 +22,21 @@
     <br><br>
     <h1>Sorry we're not able to help you in that case</h1>
     <table style="width:100%">
+        <tr>
+            <td>
+                <p>If your item is not faulty, the retailer is under no legal obligation to give you a refund. They may offer an exchange as a service of good will. We advise that you look at the Return Policies on the seller’s website.<br><br>
+                Useful links to policies for major sellers:<br>
+                <h3>Electricals:</h3>
+                <ul>
+                    <li><a href="https://www.currys.co.uk/gbuk/help-and-services/shopping-with-us/returns-and-refunds-16-commercial.html?subTab=1">Currys PC World</a></li>
+                </ul>
+                <h3>Clothing & fashion:</h3>
+                <ul>
+                    <li><a href="https://www.asos.com/customer-care/returns-refunds/what-is-your-returns-policy/">ASOS</a></li>
+                </ul>
+                </p>
+            </td>
+        </tr>
     </table>
     <?php
     include_once ("choices.php");

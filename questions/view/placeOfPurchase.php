@@ -3,10 +3,10 @@
     <table style="width:100%">
         <form action="question4.php" method="post"
         <tr>
-            <th><img src="/consumer-advice/static/yes.jpg"   alt="Online""></th> <!-- Option 1-->
-            <th><img src="/consumer-advice/static/yes.jpg"  alt="In store""></th> <!-- Option 2-->
-            <th><img src="/consumer-advice/static/yes.jpg"  alt="Phone""></th> <!-- Option 3-->
-            <th><img src="/consumer-advice/static/yes.jpg"  alt="Private""></th> <!-- Option 4-->
+            <th style="width:25%;"><img src="/consumer-advice/static/q3_online.jpg" style="display:block;" width="100%" height="100%" alt="Online"></th> <!-- Option 1-->
+            <th style="width:25%;"><img src="/consumer-advice/static/q3_instore.jpg" style="display:block;" width="100%" height="100%" alt="In store"></th> <!-- Option 2-->
+            <th style="width:25%;"><img src="/consumer-advice/static/q3_phone.jpg" style="display:block;" width="100%" height="100%" alt="Phone"></th> <!-- Option 3-->
+            <th style="width:25%;"><img src="/consumer-advice/static/q3_private.jpg" style="display:block;" width="100%" height="100%" alt="Private"></th> <!-- Option 4-->
         </tr>
         <tr>
             <th>

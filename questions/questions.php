@@ -24,20 +24,20 @@ include_once("../sidebar.php");
 <!-- Main content-->
 <div class="content-main" style="margin-left:250px">
     <br><br>
-    <h1>Question 1: Is you product faulty*?</h1><br>
+    <h1>Question 1: Is you product faulty?</h1><br>
     <table style="width:100%">
         <form action="question2.php" method="post">
             <tr>
                 <td style="vertical-align:top;">
-                    <h2><b>Definition of Faulty Product</b></h2>
+                    <h2><b>Definition of a Faulty Product</b></h2>
                     <p>If your item has arrived faulty or you have something wrong with your item, you may be entitled to receive a refund, a repair, or a replacement.<br><br>
-                    Your legal rights:<br>
+                    <h3>Your legal rights:</h3>
                     <ul>
                         <li>broken or damaged ('not of satisfactory quality')</li>
                         <li>unusable (‘not fit for purpose’)</li>
                         <li>not what was advertised or doesn’t match the seller’s description</li>
                     </ul><br>
-                    No legal rights:<br>
+                    <h3>No legal rights:</h3>
                     <ul>    
                         <li>it was damaged by wear and tear, an accident or misuse</li>
                         <li>you knew about the fault before you bought the item</li>
@@ -51,8 +51,8 @@ include_once("../sidebar.php");
                 </td>
             </tr>
                 <tr>
-                    <th><img src="/consumer-advice/static/yes.jpg"  alt="Product is faulty""></th> <!-- Option 1-->
-                    <th><img src="/consumer-advice/static/no.jpg"  alt="Product is not faulty""></th>  <!-- Option 2-->
+                    <th style="width:50%;"><img src="/consumer-advice/static/q1_yes.jpg" style="display:block;" width="100%" height="100%" alt="Product is faulty"></th> <!-- Option 1-->
+                    <th style="width:50%;"><img src="/consumer-advice/static/q1_no.jpg"  style="display:block;" width="100%" height="100%" alt="Product is not faulty"></th>  <!-- Option 2-->
                 </tr>
             <tr>
                 <th>
