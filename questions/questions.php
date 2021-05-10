@@ -42,25 +42,16 @@ include_once("../sidebar.php");
                         <li>it was damaged by wear and tear, an accident or misuse</li>
                         <li>you knew about the fault before you bought the item</li>
                         <li>you’ve just changed your mind</li>
-                    </ul></p>
+                    </ul></p><br>
+                    <button type="submit" name="choice1" value="yes" class="qbuttonstyle">Yes</button><br><br>
+                    <button type="submit" name="choice1" value="no" class="qbuttonstyle">No</button>
                 </td>
-                <td>         
+                <td>
                     <iframe width="852" height="480"
-                    src="https://www.youtube.com/embed/zHRVpyl2UWw" title="YouTube video player">
+                    src="https://www.youtube.com/embed/zHRVpyl2UWw" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe> 
                 </td>
-            </tr>
-                <tr>
-                    <th style="width:50%;"><img src="/consumer-advice/static/q1_yes.jpg" style="display:block;" width="100%" height="300px" alt="Product is faulty"></th> <!-- Option 1-->
-                    <th style="width:50%;"><img src="/consumer-advice/static/q1_no.jpg"  style="display:block;" width="100%" height="300px" alt="Product is not faulty"></th>  <!-- Option 2-->
-                </tr>
-            <tr>
-                <th>
-                    <button type="submit" name="choice1" value="yes" class="qbuttonstyle">Yes</button>
-                </th>
-                <th>
-                    <button type="submit" name="choice1" value="no" class="qbuttonstyle">No</button>
-                </th>
             </tr>
         </form>
     </table><br>
