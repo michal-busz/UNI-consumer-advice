@@ -1,7 +1,7 @@
 <div class="content-main" style="margin-left:250px">
     <h1>Question 3: Where did you buy the faulty product?</h1>
     <table style="width:100%">
-        <form action="question4.php" method="post"
+        <form action="question4.php" method="post">
         <tr>
             <th style="width:25%;"><img src="/consumer-advice/static/q3_online.jpg" style="display:block;" width="100%" height="350px" alt="Online"></th> <!-- Option 1-->
             <th style="width:25%;"><img src="/consumer-advice/static/q3_instore.jpg" style="display:block;" width="100%" height="350px" alt="In store"></th> <!-- Option 2-->

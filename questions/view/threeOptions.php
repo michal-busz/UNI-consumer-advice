@@ -2,12 +2,11 @@
     <br><br>
     <h1>Question 5: When did you purchase the faulty product?</h1>
     <table style="width:100%">
-        <form action="advice.php" method="post"
-
+        <form action="advice.php" method="post">
         <tr>
-            <th><img src="/consumer-advice/static/yes.jpg"   alt="0-30 days""></th> <!-- Option 1-->
-            <th><img src="/consumer-advice/static/no.jpg"  alt="30 days - 6 months""></th> <!-- Option 2-->
-            <th><img src="/consumer-advice/static/no.jpg"  alt="6 months+""></th> <!-- Option 3-->
+            <th style="width:33%;"><img src="/consumer-advice/static/q5_0-30days.jpg" style="display:block;" width="100%" height="350px" alt="0-30 days"></th> <!-- Option 1-->
+            <th style="width:33%;"><img src="/consumer-advice/static/q5_30days-6months.jpg" style="display:block;" width="100%" height="350px" alt="30 days - 6 months"></th> <!-- Option 2-->
+            <th style="width:33%;"><img src="/consumer-advice/static/q5_6monthsplus.jpg" style="display:block;" width="100%" height="350px" alt="6 months +"></th> <!-- Option 3-->
         </tr>
         <tr>
             <th>

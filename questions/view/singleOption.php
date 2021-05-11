@@ -2,10 +2,9 @@
     <br><br>
     <h1>Question 5: When did you purchase the faulty product?</h1>
     <table style="width:100%">
-        <form action="advice.php" method="post"
-
+        <form action="advice.php" method="post">
         <tr>
-            <th><img src="/consumer-advice/static/yes.jpg"   alt="Anytime""></th> <!-- Option 1-->
+            <th><img src="/consumer-advice/static/q5_anytime.jpg" alt="Anytime"></th> <!-- Option 1-->
         </tr>
         <tr>
             <th>

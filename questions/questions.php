@@ -43,8 +43,8 @@ include_once("../sidebar.php");
                         <li>you knew about the fault before you bought the item</li>
                         <li>you’ve just changed your mind</li>
                     </ul></p><br>
-                    <button type="submit" name="choice1" value="yes" class="qbuttonstyle">Yes</button><br><br>
-                    <button type="submit" name="choice1" value="no" class="qbuttonstyle">No</button>
+                    <b><button type="submit" name="choice1" value="yes" class="qbuttonstyle">Yes</button><br><br>
+                    <button type="submit" name="choice1" value="no" class="qbuttonstyle">No</button></b>
                 </td>
                 <td>
                     <iframe width="852" height="480"
