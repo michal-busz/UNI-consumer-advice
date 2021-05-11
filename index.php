@@ -53,7 +53,8 @@
 
 
         .text {
-            color: red;
+            color: white;
+            background-color: black;
             font-size: 15px;
             padding: 8px 12px;
             position: absolute;
