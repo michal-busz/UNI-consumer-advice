@@ -119,7 +119,39 @@ include_once("../header.php");
     <label class="requiredField" for="image">Upload proof of purchase:</label><br>
     <input type="file" name="image" id="image" size="50" required><br><br>';
         }elseif ($_POST["letter"] == "vehicle"){
-
+            echo '    <label class="requiredField" for="name">Your name:</label><br>
+    <input type="text" name="name" required><br>
+    <label class="requiredField" for="email">Your email:</label><br>
+    <input type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Provide valid email "><br>
+    <label class="requiredField" for="number">Your phone number:</label><br>
+    <input type="number" name="number" required ><br>
+    <label class="requiredField" for="productName">Vehicle make:</label><br>
+    <input type="text" name="productName" required><br>
+    <label class="requiredField" for="vehcileModel">Vehicle model:</label><br>
+    <input type="text" name="vehcileModel" required><br>
+    <label class="requiredField" for="company">Company name:</label><br>
+    <input type="text" name="company" required><br>
+    <label>Company address</label><br>
+    <label class="requiredField" for="stNo">Street number:</label><br>
+    <input type="number" name="stNo" required><br>
+    <label class="requiredField" for="address1">Address Line 1:</label><br>
+    <input type="text" name="address1" required><br>
+    <label for="address2">Address Line 2:</label><br>
+    <input type="text" name="address2"><br>
+    <label class="requiredField" for="town">Town or city:</label><br>
+    <input type="text" name="town" required><br>
+    <label class="requiredField" for="postCode">Postcode:</label><br>
+    <input type="text" name="postCode" required ><br>
+    <label for="purchaseDate">Date of purchase:</label>
+    <input type="date" id="purchaseDate" name="purchaseDate"
+           value="31/01/2021"
+           min="01/01/2014" max="01/01/2044"><br>
+    <label class="requiredField" for="price">Price:</label><br>
+    <input type="text" name="price" required><br>
+    <label for="problems">Problems with your faulty product:</label><br>
+    <textarea id="problems" name="problems" rows="3" cols="50" placeholder="Type here a brief description of your problems with your faulty product."></textarea><br>
+    <label class="requiredField" for="image">Upload proof of purchase:</label><br>
+    <input type="file" name="image" id="image" size="50" required><br><br>';
         }
 
 

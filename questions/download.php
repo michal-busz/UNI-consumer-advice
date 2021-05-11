@@ -78,9 +78,15 @@ if($_POST['pdf']== "refund") {
     $pdf->Cell(0, 5, "This download was faulty since", 0, 1);
     $pdf->Cell(0, 10, $_POST['problems'], 0, 1);
     $pdf->Cell(0, 5, "I am therefore requesting under the Consumer Rights Act 2015 that you REPAIR OR REPLACE THE ".$_POST['productName'], 0, 1);
-    $pdf->Cell(0, 5, "or if that is not possible provide a refund of ".$_POST['price']." PAID AT THE TIME and would ask for your confirmation that ", 0, 1);
+    $pdf->Cell(0, 5, "or if that is not possible provide a refund of ".$_POST['price'].POUND." PAID AT THE TIME and would ask for your confirmation that ", 0, 1);
     $pdf->Cell(0, 5, "this will be provided in the next seven days.", 0, 1);
 }elseif($_POST['pdf']== "vehicle"){
+    $pdf->Cell(0, 5, "On " . date_format($pruchaseDate, "d/m/Y") . ", I purchased " . $_POST['productName'] . " (".$_POST['vehcileModel'].")  from ".$_POST['company'] , 0, 1);
+    $pdf->Cell(0, 5, "This vehicle was faulty since", 0, 1);
+    $pdf->Cell(0, 10, $_POST['problems'], 0, 1);
+    $pdf->Cell(0, 5, "I am therefore requesting under the Consumer Rights Act 2015 that you REPAIR OR REPLACE THE ITEM", 0, 1);
+    $pdf->Cell(0, 5, " AT YOUR OWN COST. If the vehicle is still faulty after the first attempt, please provide a refund of ", 0, 1);
+        $pdf->Cell(0, 5, $_POST['price'].POUND." PAID AT THE TIME and would ask for your confirmation that this will be provided in the next seven days. ", 0, 1);
 
 }
 
