@@ -16,6 +16,9 @@
     }
     h1 {text-align: center;}
 </style>
+
+
+<body>
 <?php
 include_once("../header.php");
 include_once("../sidebar.php");
@@ -27,8 +30,5 @@ else
     include_once("view/proofOfPurchase.php");
 include_once ("choices.php");
 ?>
-
-<body>
-<!-- Main content-->
 </body>
 </html>

@@ -51,7 +51,7 @@ include_once("../sidebar.php");
 
     ?>
     <br><br>
-    <form action="detailsForm.php" method="post">
+    <form action="generator.php" method="post">
         <label for="letter">Try our letter generator!</label>
 
         <select name="letter" id="letter">

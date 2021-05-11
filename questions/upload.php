@@ -35,6 +35,8 @@ if ($uploadOk == 0) {
 // if everything is ok, try to upload file
 } else {
     if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {
+        header("Status: 200");
+        header("Location: download.php");
         include_once ('download.php');
     } else {
         echo "Sorry, there was an error uploading your file.";
