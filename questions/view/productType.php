@@ -1,5 +1,5 @@
 <div class="content-main" style="margin-left:250px">
-    <h1>Question 2: What is the type of product that is faulty?</h1>
+    <br><br><h1>Question 2: What is the type of product that is faulty?</h1>
     <table style="width:100%">
         <form action="question3.php" method="post">
         <tr>

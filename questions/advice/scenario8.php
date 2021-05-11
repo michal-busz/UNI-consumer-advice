@@ -1,5 +1,4 @@
 <div class="content-main" style="margin-left:250px">
-<h1>Scenario 8</h1>
 <p>Your rights depend on how the car was described to you.<br>
 The car should be true to the advert and what was told to you by the seller.<br>
 If the seller made you aware of any faults, you may not have any rights. But you should still attempt to raise your issue.<br>
