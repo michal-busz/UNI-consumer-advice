@@ -274,3 +274,7 @@ input[type=text], input[type=number], input[type=file], textarea {
 .qbuttonstyle:hover {
     background-color: white;
 }
+
+.current{
+    background-color: rgb(2,191,191);
+}

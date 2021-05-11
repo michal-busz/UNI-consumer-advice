@@ -19,12 +19,12 @@
 <?php
 include_once("../header.php");
         echo '<nav class="sideBar w3-bar-block w3-collapse w3-large theme-l5 w3-animate-left" id="mySidebar">';
-        echo '<h4 class="w3-bar-item"><b>Menu</b></h4>';
-        echo '<a class="w3-bar-item w3-button w3-hover-black" href="/consumer-advice/questions/questions.php">Start✓</a>';
-        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Question 2✓</a>';
-        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Question 3✓</a>';
-        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Question 4✓</a>';
-        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Question 5✓</a>';
+        echo '<h4 class="w3-bar-item" style="text-align:center;"><b>Menu</b></h4>';
+        echo '<a class="w3-bar-item w3-button w3-hover-black" href="/consumer-advice/questions/questions.php">Q1: Product faulty?✓</a>';
+        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Q2: Type of product✓</a>';
+        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Q3: Purchase location✓</a>';
+        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Q4: Proof of purchase✓</a>';
+        echo '<a class="w3-bar-item w3-button w3-hover-black" href="#" onclick="doingClick(); return false;">Q5: Purchase date✓</a>';
         echo "</nav>";
         if($_POST["letter"] == "redund"){
 
