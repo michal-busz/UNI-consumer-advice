@@ -114,37 +114,44 @@
     <h2 style="color:blue;font-size:20;">Consumer Advice Help Portal</h2>
 
 </div>
+<table style="width:100%">
+<tr>
+    <td style="width:40%">
+        <p>We are the Consumer Advice Portal, a place where you can get help resolving your issues with faulty products, by helping you understand your legal rights.<br> All you need to do is take our quick and simple questionnaire, which will guide you to the relevent advice.<br> And don't forget to check out our personalised letter generator, which by entering some details can create your very own personalised letter, with all the relevent information in a handy format to take to the company involved in the matter.</p>
+    </td>
+    <td style="width:60%;height:100%">
+        <div class="slideshow-container">
 
+            <div class="mySlides fade">
 
+                <img src="static/proofofpurchase.jpg" style="width:60%">
+                <div class="text">We are here to help you</div>
+            </div>
 
-<div class="slideshow-container">
+            <div class="mySlides fade">
 
-    <div class="mySlides fade">
+                <img src="static/clothesandfashionlogo.jpg" style="width:70%">
+                <div class="text"> Do you have an Issue with returning a Product?</div>
+            </div>
 
-        <img src="static/proofofpurchase.jpg" style="width:60%">
-        <div class="text">We are here to help you</div>
-    </div>
+            <div class="mySlides fade">
 
-    <div class="mySlides fade">
+                <img src="static/electrical-products.jpeg" style="width:100%">
+                <div class="text">  Do you have an Issue with returning a faulty Product?</div>
+            </div>
 
-        <img src="static/clothesandfashionlogo.jpg" style="width:70%">
-        <div class="text"> Do you have an Issue with returning a Product?</div>
-    </div>
+        </div>
+        <br>
 
-    <div class="mySlides fade">
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </td>
+</tr>
+</table>
 
-        <img src="static/electrical-products.jpeg" style="width:100%">
-        <div class="text">  Do you have an Issue with returning a faulty Product?</div>
-    </div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-</div>
 
 <script>
     var slideIndex = 0;
