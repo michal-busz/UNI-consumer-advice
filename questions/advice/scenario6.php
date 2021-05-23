@@ -1,4 +1,5 @@
 <div class="content-main" style="margin-left:250px">
+<h1>Your advice</h1>
 <p>You are legally entitled to receive your money back or have a repair if the car is faulty.<br>
 A faulty car means it is not:
 <ul>

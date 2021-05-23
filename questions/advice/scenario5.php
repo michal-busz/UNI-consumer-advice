@@ -1,4 +1,5 @@
 <div class="content-main" style="margin-left:250px">
+<h1>Your advice</h1>
 <p>After the <b>first 2 months.</b>
 You only have consumer rights if the item isn’t as described on the advert. It should be true to what was advertised and what was said by the seller.<br>
 If item is not as described, you may be entitled to the different in value between what was paid at the actual worth of the item. Or the cost of the repair. Always make sure you have any evidence to prove the faulty item.<br>
