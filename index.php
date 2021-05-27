@@ -114,13 +114,12 @@
     <h2 style="color:blue;font-size:20;">Consumer Advice Help Portal</h2>
 
 </div>
-            <table style="width:100%">
+<table style="width:100%">
 <tr>
-    <td>
-        r development, we used the Video ICT most popular trio of tools which is HTML, CSS, and JavaScript. HTML has been used for the website's content, CSS for its design, and JavaScript to introduce the slideshow on the homepage. CSS enabled us to create a consistent template, which will be rescaled accordingly on smaller screens. In additon, we have used PHP to deliver the features of the website. (say what feature
-        We are here to help you
+    <td style="width:40%">
+        <p>We are the Consumer Advice Portal, a place where you can get help resolving your issues with faulty products, by helping you understand your legal rights.<br> All you need to do is take our quick and simple questionnaire, which will guide you to the relevent advice.<br> And don't forget to check out our personalised letter generator, which by entering some details can create your very own personalised letter, with all the relevent information in a handy format to take to the company involved in the matter.</p>
     </td>
-    <td width = 80% height="100%">
+    <td style="width:60%;height:100%">
         <div class="slideshow-container">
 
             <div class="mySlides fade">
@@ -151,7 +150,7 @@
         </div>
     </td>
 </tr>
-            </table>
+</table>
 
 
 <script>
