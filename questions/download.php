@@ -32,7 +32,6 @@ class PDF extends FPDF
         $this->Cell(0,10,'Page '.$this->PageNo().'/{nb}',0,0,'C');
     }
 }
-//date_format($_POST['purchaseDate'],"d/m/Y ");;
 
 // Instanciation of inherited class
 $pdf = new PDF();

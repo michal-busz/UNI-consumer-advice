@@ -114,37 +114,45 @@
     <h2 style="color:blue;font-size:20;">Consumer Advice Help Portal</h2>
 
 </div>
+            <table style="width:100%">
+<tr>
+    <td>
+        r development, we used the Video ICT most popular trio of tools which is HTML, CSS, and JavaScript. HTML has been used for the website's content, CSS for its design, and JavaScript to introduce the slideshow on the homepage. CSS enabled us to create a consistent template, which will be rescaled accordingly on smaller screens. In additon, we have used PHP to deliver the features of the website. (say what feature
+        We are here to help you
+    </td>
+    <td width = 80% height="100%">
+        <div class="slideshow-container">
 
+            <div class="mySlides fade">
 
+                <img src="static/proofofpurchase.jpg" style="width:60%">
+                <div class="text">We are here to help you</div>
+            </div>
 
-<div class="slideshow-container">
+            <div class="mySlides fade">
 
-    <div class="mySlides fade">
+                <img src="static/clothesandfashionlogo.jpg" style="width:70%">
+                <div class="text"> Do you have an Issue with returning a Product?</div>
+            </div>
 
-        <img src="static/proofofpurchase.jpg" style="width:60%">
-        <div class="text">We are here to help you</div>
-    </div>
+            <div class="mySlides fade">
 
-    <div class="mySlides fade">
+                <img src="static/electrical-products.jpeg" style="width:100%">
+                <div class="text">  Do you have an Issue with returning a faulty Product?</div>
+            </div>
 
-        <img src="static/clothesandfashionlogo.jpg" style="width:70%">
-        <div class="text"> Do you have an Issue with returning a Product?</div>
-    </div>
+        </div>
+        <br>
 
-    <div class="mySlides fade">
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </td>
+</tr>
+            </table>
 
-        <img src="static/electrical-products.jpeg" style="width:100%">
-        <div class="text">  Do you have an Issue with returning a faulty Product?</div>
-    </div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-</div>
 
 <script>
     var slideIndex = 0;
